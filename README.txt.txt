@@ -1,1 +1,0 @@
-This is a sample of a git push to grab on the GCP app.
