@@ -1,15 +1,24 @@
 /* DARK BLUE = #061826 */
 
 body{
-  background-color: #ffffff;
+  background-color: #404040;
+  margin: 0px;
 }
 
 .header {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
   overflow: hidden;
-  width: 100%;
-  top: 7px;
-  background-color: #74cbd0;
+  margin-top: 20px;
+  width: 70%;
+  background-color: #707070;
   padding: 20px 10px;
+  padding-right: 0px;
+  border-radius: 20px;
+  position: absolute;
+  text-align: center;
 }
 
 .logo {
@@ -27,11 +36,20 @@ body{
   font-weight: bold;
 }
 
+.imageBody {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: #ffb046;
+  position: absolute;
+  z-index: -1;
+}
+
 .bodyBody {
-  width: 100%;
-  height: 600px;
-  margin: 0px auto;
-  background-color: #045e8b;
+  width: 50%;
+  height: 100%;
+  float: right;
+  background-color: #404040;
   font-size: 22px;
   color: white;
 }
@@ -54,6 +72,7 @@ body{
 /* Float the link section to the right */
 .dropdown {
   float: right;
+  margin: 0px;
 }
 
 .drop-button {
@@ -69,6 +88,7 @@ body{
   border: none;
   font-size: 18px;
   text-align: right;
+  margin: 0px;
 }
 
 .dropdown-content {
