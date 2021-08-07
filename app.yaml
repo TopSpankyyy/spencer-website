@@ -1,1 +1,2 @@
 runtime: python38
+default_expiration: "10m"

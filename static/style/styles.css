@@ -31,8 +31,9 @@ body{
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
+  /*
   will-change: transform, opacity;
-  transition: transform 250ms ease-in, opacity 250ms ease-in;
+  transition: transform 250ms ease-in, opacity 250ms ease-in; */
   font-size: 25px;
   font-weight: bold;
 }
@@ -75,11 +76,12 @@ body{
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 
+
 /* Change the background color on mouse-over */
-.logo:hover {
+/*.logo:hover {
   transform: translateX(20px);
   opacity: 0;
-}
+} */
 
 /* Style the active/current link*/
 .header a.active {
@@ -177,7 +179,7 @@ body{
   bottom: 10px;
 }
 
-.resumeButts {
+.logoButts {
   position: block;
   border-radius: 15px;
   margin-top: 10px;
@@ -186,10 +188,9 @@ body{
   height: 55px;
   background-color: #404040;
   color: #74cbd0;
-  transition: transform 500ms ease-in;
 }
 
-.resumeButts:hover {
+.logoButts:hover {
   border: 2px solid #404040;
   background-color: #707070;
 }
@@ -197,4 +198,33 @@ body{
 .logoBugs {
   height: 20px;
   width: 20px;
+}
+
+.bottomBar {
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 8%;
+  border-top: 2px solid #707070;
+  border-right: 2px solid #707070;
+  border-radius: 0px 10px 0px 0px;
+  bottom: 0px;
+}
+
+.resumeButts {
+  position: block;
+  border-radius: 10px;
+  margin: 10px;
+  margin-top: 14px;
+  border: 2px solid #707070;
+  width: 130px;
+  height: 50px;
+  background-color: #404040;
+  color: #74cbd0;
+  font-size: 16px;
+}
+
+.resumeButts:hover {
+  border: 2px solid #404040;
+  background-color: #707070;
 }
