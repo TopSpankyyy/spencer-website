@@ -179,15 +179,22 @@ body{
 
 .resumeButts {
   position: block;
-  border-radius: 35px;
+  border-radius: 15px;
   margin-top: 10px;
   border: 2px solid #707070;
-  width: 70px;
-  height: 70px;
+  width: 55px;
+  height: 55px;
   background-color: #404040;
   color: #74cbd0;
+  transition: transform 500ms ease-in;
 }
 
 .resumeButts:hover {
-  width: 200px;
+  border: 2px solid #404040;
+  background-color: #707070;
+}
+
+.logoBugs {
+  height: 20px;
+  width: 20px;
 }
