@@ -43,9 +43,9 @@
 		</div>
 		<div class="sideBar">
 			<div class="buttonHold">
-				<button class="logoButts" onclick="window.open('https://www.linkedin.com/in/spencer-clapes-155196103/','_blank')"><img class="logoBugs" src="C:\Users\Spencer Clapes\Documents\SpencerWebsite\spencer-website\static\img\linkedInLogo.png"></button>
-				<button class="logoButts" onclick="window.open('https://github.com/TopSpankyyy','_blank')"><img class="logoBugs" src="C:\Users\Spencer Clapes\Documents\SpencerWebsite\spencer-website\static\img\githubLogo.png"></button>
-				<button class="logoButts"><img class="logoBugs" src="C:\Users\Spencer Clapes\Documents\SpencerWebsite\spencer-website\static\img\downloadLogo.png"></button>
+				<button class="logoButts" onclick="window.open('https://www.linkedin.com/in/spencer-clapes-155196103/','_blank')"><img class="logoBugs" src="{{ url_for('static', filename='img/linkedInLogo.png') }}"></button>
+				<button class="logoButts" onclick="window.open('https://github.com/TopSpankyyy','_blank')"><img class="logoBugs" src="{{ url_for('static', filename='img/githubLogo.png') }}"></button>
+				<button class="logoButts"><img class="logoBugs" src="{{ url_for('static', filename='img/downloadLogo.png') }}"></button>
 			</div>
 		</div>
 	</body>
