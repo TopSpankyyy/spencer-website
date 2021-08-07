@@ -5,6 +5,7 @@ body{
   margin: 0px;
   font-family: Verdana; sans-serif;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .header {
@@ -56,21 +57,98 @@ body{
   color: white;
 }
 
-.bodyBody h1 {
+.aboutBody {
+  width:60%;
+  height: 100%;
+}
+
+.aboutBody h1 {
   position: relative;
-  top: 50%;
-  left: 5%;
+  top: 55%;
+  left: 8%;
   color: #74cbd0;
   font-size: 28px;
   margin: 10px;
 }
 
-.bodyBody p {
+.aboutBody p {
   position: relative;
-  top: 50%;
-  left: 5%;
+  top: 55%;
+  left: 8%;
   font-size: 14px;
-  width: 40%;
+  width: 55%;
+  margin: 10px;
+}
+
+.workBody {
+  width:60%;
+  height: 100%;
+  display: none;
+}
+
+.workBody h1 {
+  position: relative;
+  top: 55%;
+  left: 8%;
+  color: #74cbd0;
+  font-size: 28px;
+  margin: 10px;
+}
+
+.workBody p {
+  position: relative;
+  top: 55%;
+  left: 8%;
+  font-size: 14px;
+  width: 55%;
+  margin: 10px;
+}
+
+.skillsBody {
+  width:60%;
+  height: 100%;
+  display: none;
+}
+
+.skillsBody h1 {
+  position: relative;
+  top: 55%;
+  left: 8%;
+  color: #74cbd0;
+  font-size: 28px;
+  margin: 10px;
+}
+
+.skillsBody p {
+  position: relative;
+  top: 55%;
+  left: 8%;
+  font-size: 14px;
+  width: 55%;
+  margin: 10px;
+}
+
+.edBody {
+  width:60%;
+  height: 100%;
+  display: none;
+}
+
+.edBody h1 {
+  position: relative;
+  top: 55%;
+  left: 8%;
+  color: #74cbd0;
+  font-size: 28px;
+  margin: 10px;
+}
+
+.edBody p {
+  position: relative;
+  top: 55%;
+  left: 8%;
+  font-size: 14px;
+  width: 55%;
   margin: 10px;
 }
 
@@ -167,7 +245,7 @@ body{
 
 .sidebar {
   position: absolute;
-  width: 6%;
+  width: 90px;
   height: 100%;
   right: 0;
   text-align: center;
@@ -188,6 +266,7 @@ body{
   height: 55px;
   background-color: #404040;
   color: #74cbd0;
+  target-new: tab;
 }
 
 .logoButts:hover {
@@ -204,7 +283,7 @@ body{
   position: absolute;
   padding-left: 10px;
   padding-right: 10px;
-  height: 8%;
+  height: 74px;
   border-top: 2px solid #707070;
   border-right: 2px solid #707070;
   border-radius: 0px 10px 0px 0px;
