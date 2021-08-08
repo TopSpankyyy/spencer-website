@@ -39,6 +39,14 @@ body{
   font-weight: bold;
 }
 
+.logoImg {
+  height: 55px;
+  width: 55px;
+  margin-right: 5px;
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+
 .imageBody {
   float: left;
   width: 40%;
@@ -57,12 +65,12 @@ body{
   color: white;
 }
 
-.aboutBody {
+#aboutBody {
   width:60%;
   height: 100%;
 }
 
-.aboutBody h1 {
+#aboutBody h1 {
   position: relative;
   top: 55%;
   left: 8%;
@@ -71,7 +79,7 @@ body{
   margin: 10px;
 }
 
-.aboutBody p {
+#aboutBody p {
   position: relative;
   top: 55%;
   left: 8%;
@@ -80,13 +88,13 @@ body{
   margin: 10px;
 }
 
-.workBody {
+#workBody {
   width:60%;
   height: 100%;
   display: none;
 }
 
-.workBody h1 {
+#workBody h1 {
   position: relative;
   top: 55%;
   left: 8%;
@@ -95,7 +103,7 @@ body{
   margin: 10px;
 }
 
-.workBody p {
+#workBody p {
   position: relative;
   top: 55%;
   left: 8%;
@@ -104,13 +112,13 @@ body{
   margin: 10px;
 }
 
-.skillsBody {
+#skillsBody {
   width:60%;
   height: 100%;
   display: none;
 }
 
-.skillsBody h1 {
+#skillsBody h1 {
   position: relative;
   top: 55%;
   left: 8%;
@@ -119,7 +127,7 @@ body{
   margin: 10px;
 }
 
-.skillsBody p {
+#skillsBody p {
   position: relative;
   top: 55%;
   left: 8%;
@@ -128,13 +136,13 @@ body{
   margin: 10px;
 }
 
-.edBody {
+#edBody {
   width:60%;
   height: 100%;
   display: none;
 }
 
-.edBody h1 {
+#edBody h1 {
   position: relative;
   top: 55%;
   left: 8%;
@@ -143,7 +151,7 @@ body{
   margin: 10px;
 }
 
-.edBody p {
+#edBody p {
   position: relative;
   top: 55%;
   left: 8%;
@@ -156,10 +164,9 @@ body{
 
 
 /* Change the background color on mouse-over */
-/*.logo:hover {
-  transform: translateX(20px);
-  opacity: 0;
-} */
+.logo:hover {
+  color: #ffb046;
+}
 
 /* Style the active/current link*/
 .header a.active {
@@ -179,7 +186,7 @@ body{
   width: 100px;
   transition: width 1s;
   height: 50px;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 10px;
   background-color: #74cbd0;
   padding-right: 16px;
   color: #707070;
@@ -187,7 +194,7 @@ body{
   border: none;
   font-size: 18px;
   text-align: right;
-  margin: 0px;
+  margin-right: 20px;
 }
 
 .dropdown-content {
@@ -281,6 +288,7 @@ body{
 
 .bottomBar {
   position: absolute;
+  background-color: #404040;
   padding-left: 10px;
   padding-right: 10px;
   height: 74px;
@@ -288,6 +296,7 @@ body{
   border-right: 2px solid #707070;
   border-radius: 0px 10px 0px 0px;
   bottom: 0px;
+  z-index: 2;
 }
 
 .resumeButts {
