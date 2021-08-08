@@ -166,6 +166,7 @@ body{
 /* Change the background color on mouse-over */
 .logo:hover {
   color: #ffb046;
+  cursor: pointer;
 }
 
 /* Style the active/current link*/
@@ -216,12 +217,16 @@ body{
   font-size: 18px;
 }
 
-.dropdown-content a:hover {background-color: #c78834;}
+.dropdown-content a:hover {
+  background-color: #c78834;
+  cursor: pointer;
+}
 
 /* display hidden elements on hover */
 .dropdown:hover .dropdown-content {
   display: block;
   animation: growDown 600ms ease-in;
+  cursor: pointer;
 }
 
 @keyframes growDown {
@@ -239,6 +244,7 @@ body{
 /* change width of project button on hover */
 .dropdown:hover .drop-button {
   width: 300px;
+  cursor: pointer;
 }
 
 /* round proper edges of top button */
@@ -279,6 +285,7 @@ body{
 .logoButts:hover {
   border: 2px solid #404040;
   background-color: #707070;
+  cursor: pointer;
 }
 
 .logoBugs {
@@ -315,4 +322,5 @@ body{
 .resumeButts:hover {
   border: 2px solid #404040;
   background-color: #707070;
+  cursor: pointer;
 }
